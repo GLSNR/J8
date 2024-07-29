@@ -14,6 +14,7 @@ public class ConsumerDemoUsingLambdaExpression {
         Consumer<String> consumer1 = (input2) -> System.out.println(input2);
         consumer1.accept("This is Doremon");
 
+
     }
 
 }
